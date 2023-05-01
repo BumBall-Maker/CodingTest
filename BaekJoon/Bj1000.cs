@@ -6,7 +6,9 @@ namespace MyApp
     {
         static void Main(string[] args)
         {
-            Console.ReadLine(int a);
+            int a,b;
+            a = int.Parse(Console.ReadLine());
+            b = int.Parse(Console.ReadLine());
         }
     }
 }
